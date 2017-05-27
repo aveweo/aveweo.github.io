@@ -1,12 +1,256 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+	<script src="libs/particles.js-master/particles.min.js"></script>
+
 </head>
+
 <body>
-	hello
+
+	<!-- <div id="particles-js" defer></div>
+	<script>
+					/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+			particlesJS.load('particles-js', 'libs/particles.js-master/config.json', function() {
+			  console.log('callback - particles.js config loaded');
+			});
+	</script> -->
+<div class="wrapper" id="page-wrapper">
+	<div class="block">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-lg-12">
+					<div class="content">
+						<div class="header">
+							<div class="square"></div>
+							<div class="triangle"></div>
+							<div class="circle"></div>
+							<h1>ave weo</h1>
+							<h3>web-developer <span class="span1"></span><span class="span2"></span><span class="span3"></span></h3>
+						</div>
+						<div class="about">
+							<div class="row">
+								<div class="col-md-5 col-sm-5 col-lg-5">
+									<div class="block-img"></div>
+								</div>
+								<div class="col-md-7 col-sm-7 col-lg-7">
+									<div class="preview">
+										<h3>
+											About me
+										</h3>
+										<div class="line"></div>
+									</div>
+									<div class="text">
+											<div class="background"></div>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione perspiciatis ea tempora sit, officia, nostrum doloribus tenetur laborum, repellendus laudantium perferendis excepturi aliquam cupiditate. Quae natus laboriosam repellendus, veniam at eligendi! Odio dolores adipisci, obcaecati, maxime amet culpa. Dolorum doloremque rem asperiores quas, dignissimos, nobis nisi soluta veritatis numquam, ex eveniet! Esse obcaecati eveniet, rerum optio ipsam vero hic quos dolores, voluptatibus velit? Quis impedit ut placeat, nobis accusamus deserunt quasi delectus corporis iure consequatur.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="skills">
+							<div class="preview">
+								<div class="first"></div>
+								<div class="last"></div>
+								<h3>My skills</h3>
+							</div>
+							<div class="row">
+								<div class="col-md-6 col-lg-6 col-sm-6">
+										<div class="skills-block">
+												<div class="skill">
+														<div class="name"><span>HTML</span></div>
+														<div class="line"><span>99%</span></div>
+														<div class="clear"></div>
+												</div>
+												<div class="skill">
+														<div class="name"><span>CSS</span></div>
+														<div class="line"><span>99%</span></div>
+														<div class="clear"></div>
+												</div>
+												<div class="skill">
+														<div class="name"><span>JS</span></div>
+														<div class="line"><span>99%</span></div>
+														<div class="clear"></div>
+												</div>
+												<div class="skill">
+														<div class="name"><span>PHP</span></div>
+														<div class="line"><span>99%</span></div>
+														<div class="clear"></div>
+												</div>
+												<div class="skill">
+														<div class="name"><span>MySQL</span></div>
+														<div class="line"><span>99%</span></div>
+														<div class="clear"></div>
+												</div>
+										</div>
+								</div>
+								<div class="col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1 col-sm-5 col-sm-offset-1">
+										<div class="skill-text">
+												<div class="background"></div>
+												<div class="first"></div>
+												<div class="last"></div>
+												<div class="text">
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et impedit autem nihil harum vero aut magnam iusto, quos culpa rem eius dicta itaque eveniet porro, officiis nam consequatur sequi sed, voluptatem aperiam consequuntur! Fugit cumque inventore, eligendi assumenda voluptatum accusamus.</p>
+												</div>
+										</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="portfolio">
+							<div class="row">
+									<div class="col-md-2 col-md-offset-10 col-lg-2 col-lg-offset-10 col-sm-2 col-sm-offset-10">
+											<div class="preview">
+													<h3>
+														Portfolio
+													</h3>
+											</div>
+									</div>
+									<div class="col-md-1 col-lg-1 col-sm-1">
+										<div class="filter-slider">
+											<ul>
+												<li>All</li>
+												<li>HTML</li>
+												<li>PSD</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-md-11 col-lg-11 col-sm-11">
+											<div class="slider-portfolio">
+													<div class="arrow-left">
+														<span class="glyphicon glyphicon-menu-left"></span></div>
+													<div class="arrow-right">
+														<span class="glyphicon glyphicon-menu-right"></span>
+													</div>
+													<div class="content-slider">
+															<div>
+																<img data-lazy="img/p1.jpg" class="img-responsive" alt="">
+																<div class="hover">
+																		<h3>Lorem ipsum dolor.</h3>
+																		<div class="line line1"></div>
+																		<div class="line line2"></div>
+																		<div class="text">
+																			<p>
+																				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, nam incidunt fugiat quo quod expedita.
+																			</p>
+																		</div>
+																</div>
+															</div>
+															<div>
+																<img data-lazy="img/p2.jpg" class="img-responsive" alt="">
+																<div class="hover">
+																		<h3>Lorem ipsum dolor.</h3>
+																		<div class="line line1"></div>
+																		<div class="line line2"></div>
+																		<div class="text">
+																			<p>
+																				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, nam incidunt fugiat quo quod expedita.
+																			</p>
+																		</div>
+																</div>
+															</div>
+															<div>
+																<img data-lazy="img/p3.jpg" class="img-responsive" alt="">
+																<div class="hover">
+																		<h3>Lorem ipsum dolor.</h3>
+																		<div class="line line1"></div>
+																		<div class="line line2"></div>
+																		<div class="text">
+																			<p>
+																				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, nam incidunt fugiat quo quod expedita.
+																			</p>
+																		</div>
+																</div>
+															</div>
+															<div>
+																<img data-lazy="img/p4.jpg" class="img-responsive" alt="">
+																<div class="hover">
+																		<h3>Lorem ipsum dolor.</h3>
+																		<div class="line line1"></div>
+																		<div class="line line2"></div>
+																		<div class="text">
+																			<p>
+																				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, nam incidunt fugiat quo quod expedita.
+																			</p>
+																		</div>
+																</div>
+															</div>
+													</div>
+											</div>
+									</div>
+							</div>
+						</div>
+						<div class="contacts">
+							<div class="row">
+									<div class="col-md-12 col-lg-12 col-sm-12">
+										<div class="preview">
+											<h3>Contacts me</h3>
+											<h4>Lorem ipsum dolor sit amet.</h4>
+										</div>
+									</div>
+									<div class="col-md-5 col-lg-5 col-sm-5">
+										<div class="inputs">
+											<input type="text" placeholder="your email">
+											<input type="text" placeholder="your name">
+										</div>
+									</div>
+									<div class="col-md-7 col-lg-7 col-sm-7">
+										<div class="textarea">
+											<textarea name="name" placeholder="your message"></textarea>
+										</div>
+									</div>
+									<div class="col-md-3 col-md-offset-9 col-lg-3 col-lg-offset-9 col-sm-3 col-sm-offset-9">
+										<div class="button">
+											<button type="button" class="contactSub">Отправить</button>
+										</div>
+									</div>
+							</div>
+						</div>
+						<div class="footer">
+							<div class="row">
+										<div class="col-md-10 col-lg-10 col-sm-10">
+												<h2>Lorem ipsum dolor sit amet.</h2>
+												<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, minus! Ut cum obcaecati exercitationem accusantium.</h3>
+										</div>
+										<div class="col-md-2 col-lg-2 col-sm-2">
+											<div class="social">
+												<a href=""><i class="fa fa-vk fa-lg"></i></a>
+												<a href=""><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+												<a href=""><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i></a>
+											</div>
+										</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js" defer></script>
+
 </body>
 </html>
